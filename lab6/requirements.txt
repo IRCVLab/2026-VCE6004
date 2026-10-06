@@ -1,0 +1,6 @@
+# 6주차 실습 파이썬 패키지 (Jetson, Python 3.10)
+# 대부분 setup_lab6.sh 가 apt 로 설치한다. 직접 설치할 때: pip3 install --user -r requirements.txt
+
+Jetson.GPIO        # GPIO·PWM·이벤트 (JetPack 에 보통 포함)
+smbus2             # I2C — 실습 8 (ADS1115)
+matplotlib         # 선택 — latency_plot.py · analyze.py --plot 그래프 (없으면 표만 출력, 노트북에서 그려도 됨)
